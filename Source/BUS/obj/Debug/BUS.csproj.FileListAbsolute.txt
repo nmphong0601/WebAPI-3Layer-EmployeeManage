@@ -1,0 +1,151 @@
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\BUS.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\BUS.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\DAO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\DTO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\EntityFramework.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\Useful.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.WebPages.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\DAO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\DAO.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\DTO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\DTO.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\EntityFramework.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\Useful.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\Useful.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.WebPages.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\obj\Debug\BUS.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\obj\Debug\BUS.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.Http.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Net.Http.Formatting.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\Newtonsoft.Json.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Web.Http.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\System.Net.Http.Formatting.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\Newtonsoft.Json.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\AutoMapper.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\BUS\bin\Debug\AutoMapper.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\BUS.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\BUS.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\AutoMapper.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\EntityFramework.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\Useful.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Http.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Net.Http.Formatting.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\Newtonsoft.Json.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\AutoMapper.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\EntityFramework.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\Useful.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\Useful.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Http.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Net.Http.Formatting.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\Newtonsoft.Json.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\BUS.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\BUS.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\AutoMapper.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\EntityFramework.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\Useful.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Mvc.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Http.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Razor.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Net.Http.Formatting.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\Newtonsoft.Json.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.dll.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.dll.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\AutoMapper.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\EntityFramework.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\Useful.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\Useful.dll.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Mvc.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Http.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.Razor.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Net.Http.Formatting.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\Newtonsoft.Json.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\BUS.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\BUS.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\AutoMapper.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\EntityFramework.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\DAO.dll.config
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\DTO.dll.config
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\AutoMapper.xml
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\EntityFramework.xml
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\obj\Debug\BUS.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\QLNV.mdf
+D:\Projects\2023\WebAPI-3Layer\Source\BUS\bin\Debug\QLNV_log.ldf
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\BUS.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\BUS.pdb
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\DAO.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\DTO.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\AutoMapper.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\EntityFramework.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\DAO.pdb
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\DAO.dll.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\DTO.pdb
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\DTO.dll.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\AutoMapper.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\bin\Debug\EntityFramework.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\obj\Debug\BUS.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\BUS\obj\Debug\BUS.pdb

@@ -1,0 +1,429 @@
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+C:\Users\luong\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+C:\Users\LieuNguyen\Downloads\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+D:\Web\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+E:\7.Study\5.LTUDQL2-A-Tuan\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+E:\7.Study\9.Web2-A-TUAN\DoAnWeb_Final\DoAnWeb_New\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojResolveAssemblyReference.cache
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+F:\Study\LapTrinhWeb2\DoAn\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Views\ApplicationInsights.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\csc.exe
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\vbc.exe
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\DoAnWeb.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\DoAnWeb.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\BotDetect.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\EntityFramework.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\EntityFramework.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\EntityFramework.SqlServer.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.Web.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Helpers.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\bin\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.csproj.CopyComplete
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\DoAnWeb\obj\Debug\DoAnWeb.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\obj\Debug\DoAnWeb.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\obj\Debug\DoAnWeb.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\obj\Debug\DoAnWeb.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Views\ApplicationInsights.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\csc.exe
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\vbc.exe
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\VBCSCompiler.exe
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\DoAnWeb.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\DoAnWeb.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\DoAnWeb.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\BotDetect.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\BotDetect.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\EntityFramework.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\EntityFramework.SqlServer.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.DependencyCollector.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.Web.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.WindowsServer.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.ApplicationInsights.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Data.SQLite.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Helpers.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Webpages.Deployment.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Webpages.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Webpages.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\EntityFramework.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\EntityFramework.SqlServer.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.DependencyCollector.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.Web.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.AI.WindowsServer.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.ApplicationInsights.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Data.SQLite.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Data.SQLite.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Webpages.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Webpages.Deployment.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Webpages.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Helpers.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\bin\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DoAnWeb\obj\Debug\DoAnWeb.csproj.CopyComplete
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DoAnWeb\obj\Debug\DoAnWeb.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DoAnWeb\obj\Debug\DoAnWeb.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DoAnWeb\obj\Debug\DoAnWeb.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DoAnWeb\obj\Debug\DoAnWeb.csprojAssemblyReference.cache
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DoAnWeb\obj\Debug\DoAnWeb.csproj.CoreCompileInputs.cache

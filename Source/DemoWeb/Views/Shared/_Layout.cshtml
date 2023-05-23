@@ -1,0 +1,138 @@
+﻿@using DemoWeb.Ultilities
+@using DemoWeb.Models
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Quản lý nhân viên</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/css/bootstrapCheckbox.css" rel="stylesheet">
+    <link href="~/Content/bootstrap/css/modern-business.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="~/Content/agency/css/agency.min.css" rel="stylesheet">
+    <link href="~/Content/css/search.css" rel="stylesheet">
+
+    @if (IsSectionDefined("style"))
+    {
+        @RenderSection("style")
+    }
+    <style type="text/css">
+        header {
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+        }
+
+        .navbar-fixed-top {
+            z-index: 500;
+        }
+
+        .caption-green {
+            color: forestgreen;
+        }
+
+        .caption-red {
+            color: red;
+        }
+
+        .input-validation-error {
+            border: 2px solid #f00;
+            background-color: #fee;
+        }
+
+        input[type="CheckBox"].input-validation-error {
+            outline: 2px solid #f00;
+        }
+
+        .validation-Sumary-errors {
+            color: #f00;
+            font-weight: bold;
+        }
+
+        .field-validation-error {
+            color: #f00;
+            font-style: initial;
+        }
+
+        #myCarousel {
+            margin-top: -50px;
+        }
+
+        intro-text {
+            margin-left: 20%;
+        }
+    </style>
+</head>
+
+<body id="page-top" class="index sidebar-mini skin-blue">
+
+    <div id="search" class="divOnTop">
+        <button type="button" class="close">×</button>
+        <form class="center-block form-horizontal" method="post"
+              action="@Url.Action("SearchProduct", "Search")">
+            <input type="search" id="txtSearch" name="keyword" value="" placeholder="type keyword(s) here" />
+            <button type="submit" name="btnSearch" class="btn btn-primary" value="Search">Search</button>
+        </form>
+    </div>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="@Url.Action("Index", "Home")">Welcome !!</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                </ul>           
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    @RenderBody();
+
+    <!-- jQuery -->
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/jquery/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="~/Content/js/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="~/Content/js/jqBootstrapValidation.js"></script>
+    <script src="~/Content/js/contact_me.js"></script>
+    <script src="~/Content/js/search.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="~/Content/js/agency.min.js"></script>
+
+    <script src="~/Content/js/jssor.slider.mini.js"></script>
+
+    @if (IsSectionDefined("script"))
+    {
+        @RenderSection("script")
+    }
+
+</body>
+
+</html>

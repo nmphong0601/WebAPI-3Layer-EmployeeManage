@@ -1,0 +1,89 @@
+﻿@using DemoWeb.Models
+@using DemoWeb.Ultilities
+@model  Employee
+
+
+@section style{
+    <link href="~/Content/css/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+    <link href="~/Content/css/comment.css" rel="stylesheet" />
+    <style type="text/css">
+       img{
+           width:auto;
+           height:auto;
+       }
+      .caption{
+          margin-left: 30%;
+      }
+      body{
+          background-color: #eeeeee;
+      }
+      .panel-white{
+          background-color: #eeeeee;
+          border: 0px;
+      }
+      .panel-shadow {
+          box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+      }
+      .fa{
+          color: grey;
+      }
+    </style>
+}
+@section script{
+    <script src="~/Content/js/jquery.bootstrap-touchspin.min.js"></script>
+   
+    <script type="text/javascript">
+        $("input[name='quantity']").TouchSpin({
+            initval: 1
+        });
+    </script>
+}
+<form id="frmAddCM" method="post" action="@Url.Action("AddComment", "Product")">
+    <input id="pId" type="hidden" name="proId" />
+    <input id="uName" type="hidden" name="uName" />
+    <input id="content" type="hidden" name="content" />
+    <input id="dayCM" type="hidden" name="dayCM" />
+</form>
+<div class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="panel panel-white post panel-shadow">
+                    <div class="post-heading">
+                        <div class="text-center col-sm-12">
+                        </div>
+                        <div class="center-block col-sm-12">
+                            <h3 class="caption-green"> @Model.FullName</h3>
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+       
+
+
+
+
+
+
+
+

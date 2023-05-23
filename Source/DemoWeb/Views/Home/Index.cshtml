@@ -1,0 +1,67 @@
+﻿@using DemoWeb.Models
+@using DemoWeb.Ultilities
+
+@model IList<Manager>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@section script{
+    @*xử lí nút bấm mua hàng*@
+    <script type="text/javascript">
+       $('a[name="aAddItem"]').on('click', function () {
+           var pId = $(this).data('id');
+           $('#pId').val(pId);
+           $('#frmAddCI').submit();
+       });
+       $('div[name="stars"]').on('click', function () {
+           var pId = $(this).data('id');
+           $('#proId').val(pId);
+           $('#frmRate').submit();
+       });
+    </script>
+    @*include file js đánh giá*@
+    <script src="~/Content/js/rating.star.js"></script>
+}
+<form id="frmRate" method="post" action="@Url.Action("RateProductIndex", "Product")">
+    <input id="proId" type="hidden" name="proId" />
+    <input id="rateId" type="hidden" name="rateId" value="0" />
+    <input id="rate" type="hidden" name="rate" value="0" />
+</form>
+<form id="frmAddCI" method="post" action="@Url.Action("AddCIFromIndex", "Cart")">
+    <input id="pId" type="hidden" name="proId" />
+</form>
+
+<!-- Services Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Danh sách Manager</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            @{
+                var listManager = Model;
+                foreach (var manager in listManager)
+                {
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <div class="portfolio-caption" style="border:#eeeeee 1px solid; background-color: #eeeeee;  ">
+                            <h4>@manager.FullName.Substring(0, 14)...</h4>
+                        </div>
+                    </div>
+                }
+
+            }
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            
+        </div>
+    </div>
+</footer>

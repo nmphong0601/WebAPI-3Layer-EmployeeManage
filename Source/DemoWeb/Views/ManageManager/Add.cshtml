@@ -1,0 +1,104 @@
+﻿@using DemoWeb.Models
+@using DemoWeb.Ultilities
+
+@model IList<Manager>
+
+@{
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+@*trang thêm sản phẩm ở phần Admin*@
+
+@section style{
+    <link href="~/Content/css/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="~/Content/css/fileinput.min.css" rel="stylesheet" />
+    <link href="~/Content/css/summernote.css" rel="stylesheet" />
+
+    <style type="text/css">
+        label {
+            font-weight: normal !important;
+        }
+
+        .form-horizontal .control-label {
+            text-align: left;
+            padding-left: 0;
+        }
+    </style>
+}
+@section script{
+    @*xử lí cho thanh DropDownListFor*@
+    <script src="~/Content/js/bootstrap-select.min.js"></script>
+    <script src="~/Content/js/fileinput.min.js"></script>
+    <script src="~/Content/js/summernote.min.js"></script>
+}
+
+
+@*Nội dung*@
+<div class="row">
+    <div class="col-md-8 col-sm-12 center-block" style="float:none">
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" id="add-manager" name="add-manager" onclick="location.href='@Url.Action("AddManager", "ManageManager")'">
+                <i class="fa fa-plus"></i>
+                &nbsp; Add Manager
+            </button>
+        </div>
+        @using (Html.BeginForm("Add", "ManageManager", FormMethod.Post, new { @class = "form-horizontal", id = "frmAdd", enctype = "multipart/form-data" }))
+        {
+
+            for (int idx = 0; Model.Count > 0 && idx < Model.Count; idx++)
+            {
+                <div class="panel">
+                    <div class="panel-body">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                @Html.LabelFor(m => Model[idx].FullName, "Full Name:", new { @class = "col-sm-3 control-label" })
+                                <div class="col-sm-9">
+                                    @Html.TextBoxFor(m => Model[idx].FullName, new { @class = " form-control ", placeholder = "Full Name" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-warning" onclick="location.href='@Url.Action("AddEmployee", "ManageManager", new { managerId = idx })'">
+                                    <i class="fa fa-plus"></i>
+                                    &nbsp; Add Employee
+                                </button>
+                            </div>
+
+                            @for (int index = 0; Model[idx].Employees.Count > 0 && index < Model[idx].Employees.Count; index++)
+                            {
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(m => Model[idx].Employees[index].FullName, "Full Name:", new { @class = "col-sm-4 control-label" })
+                                            <div class="col-sm-8">
+                                                @Html.TextBoxFor(m => Model[idx].Employees[index].FullName, new { @class = " form-control ", placeholder = "Full Name" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            @Html.LabelFor(m => Model[idx].Employees[index].DOB, "Date Of Birth:", new { @class = "col-sm-4 control-label" })
+                                            <div class="col-sm-8">
+                                                @Html.TextBoxFor(m => Model[idx].Employees[index].DOB, new { @class = " form-control ", placeholder = "Date Of Birth" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            }
+
+            <div class="form-group">
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fa fa-plus"></i>
+                        &nbsp; Add
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+</div>

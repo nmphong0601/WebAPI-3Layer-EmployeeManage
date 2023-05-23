@@ -1,0 +1,364 @@
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\DTO.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\DTO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\DTO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\EntityFramework.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.Helpers.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.WebPages.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\EntityFramework.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.Helpers.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.WebPages.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\obj\Debug\DTO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\obj\Debug\DTO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\DoAnWeb2\DoAnWeb_Search_Final\DoAnWeb\Source\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.dll.config
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.pdb
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\EntityFramework.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Helpers.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Mvc.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\EntityFramework.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Helpers.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Mvc.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.dll
+D:\Study+Programming\18HCB\Phan tich thiet ke phan mem\WebAPISolution\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.dll.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\EntityFramework.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Helpers.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Mvc.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Razor.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\EntityFramework.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Helpers.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Mvc.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Razor.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.pdb
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csc.exe
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\vbc.exe
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csc.exe.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csc.rsp
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csi.exe
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csi.exe.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csi.rsp
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.AppContext.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Console.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.Compression.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.FileSystem.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.Pipes.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.AccessControl.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Claims.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Principal.Windows.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.ValueTuple.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.XPath.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\vbc.exe.config
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\vbc.rsp
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\Newtonsoft.Json.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Net.Http.Formatting.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Http.dll
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\Newtonsoft.Json.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Net.Http.Formatting.xml
+D:\Study\PhanTichThietKePhanMem\Projects\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Http.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.dll.config
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\DTO.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csc.exe
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csc.exe.config
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csc.rsp
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csi.exe
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csi.exe.config
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\csi.rsp
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.AppContext.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Console.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.Compression.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.FileSystem.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.IO.Pipes.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.AccessControl.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Claims.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.ValueTuple.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.XPath.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\vbc.exe
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\vbc.exe.config
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\vbc.rsp
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\EntityFramework.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Helpers.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Http.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Mvc.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Razor.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\EntityFramework.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Helpers.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Http.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Mvc.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.Razor.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\obj\Debug\DTO.pdb
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\QLNV.mdf
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\QLNV_log.ldf
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Remotion.Linq.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\SQLitePCLRaw.batteries_green.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\SQLitePCLRaw.core.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Collections.Immutable.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Interactive.Async.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\Remotion.Linq.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Collections.Immutable.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Interactive.Async.xml
+D:\Projects\2023\WebAPI-3Layer\Source\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\x86\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\x64\e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\DTO.dll.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\DTO.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\DTO.pdb
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\csc.exe
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\csc.exe.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\csc.rsp
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\csi.exe
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\csi.exe.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\csi.rsp
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.Managed.Core.targets
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.AppContext.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Console.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.IO.Compression.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.IO.FileSystem.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.IO.Pipes.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.AccessControl.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.Claims.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Security.Principal.Windows.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Text.Encoding.CodePages.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.ValueTuple.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Xml.ReaderWriter.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Xml.XmlDocument.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Xml.XPath.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\System.Xml.XPath.XDocument.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\vbc.exe
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\vbc.exe.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\vbc.rsp
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\EntityFramework.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Data.Sqlite.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Remotion.Linq.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\SQLitePCLRaw.batteries_green.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\SQLitePCLRaw.core.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Collections.Immutable.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Interactive.Async.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Helpers.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Http.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Mvc.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Razor.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.WebPages.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\EntityFramework.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Data.Sqlite.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\Remotion.Linq.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Collections.Immutable.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Interactive.Async.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Helpers.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Http.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Mvc.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.Razor.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.WebPages.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\obj\Debug\DTO.csproj.CopyComplete
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\obj\Debug\DTO.dll
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\obj\Debug\DTO.pdb
+D:\Projects\2023\WebAPI-3Layer-EmployeeManage\Source\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
