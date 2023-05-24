@@ -4,6 +4,15 @@ using System.Data.Entity.Infrastructure;
 
 namespace DTO.Models
 {
+    public static string MDF_Directory
+    {
+        get
+        {
+            var directoryPath = AppDomain.CurrentDomain.BaseDirectory;
+            return Path.GetFullPath(Path.Combine(directoryPath, "..//Databases"));
+        }
+    }
+    
     public partial class QLNVEntities : DbContext
     {
         public virtual DbSet<Employee> Employee { get; set; }
@@ -13,7 +22,7 @@ namespace DTO.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"metadata=res://*/Models.QLNVEntities.csdl|res://*/Models.QLNVEntities.ssdl|res://*/Models.QLNVEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|Databases\QLNV.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework&quot;");
+                optionsBuilder.UseSqlServer(@"data source=(LocalDB)\\MSSQLLocalDB;attachdbfilename=" + MDF_Directory + "\\QLNV.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;");
             }
         }
 
