@@ -10,5 +10,7 @@ namespace DTO.Models
         public Nullable<System.DateTime> DOB { get; set; }
         public Nullable<bool> IsManager { get; set; }
         public Nullable<int> ManagerId { get; set; }
+        
+        public Manager Manager { get; set; }
     }
 }
