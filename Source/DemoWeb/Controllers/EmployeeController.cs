@@ -12,8 +12,14 @@ namespace DemoWeb.Controllers
     public class EmployeeController : Controller
     {
         static int nPerPage = 6;
-        // GET: Employee
-        
+        // GET: Employees
+        public ActionResult Index()
+        {
+            var l = CSDLQLNV.GetEmployees().ToList();
+            return View(l);
+
+        }
+
         public ActionResult GetList(int page=1)
         {
             Dictionary<string, object> result = CSDLQLNV.GetPagedEmployees(page: page, pageSize: nPerPage);
@@ -60,6 +66,24 @@ namespace DemoWeb.Controllers
                 ViewBag.ListComment = listCom;
             }
             return View(employee);
+        }
+
+        // GET: Employee/Delete
+        public ActionResult Delete(int id)
+        {
+            var pD = CSDLQLNV.GetSingleEmployee(id);
+            if (pD != null)
+            {
+                CSDLQLNV.RemoveEmployee(id);
+            }
+            return RedirectToAction("Index");
+        }
+
+        // Post: Employee/Add
+        [HttpPost]
+        public ActionResult Add(Employee p)
+        {
+            return View(p);
         }
     }
 }

@@ -1213,8 +1213,6 @@
     <Compile Include="ClientModels\ClientEmployee.cs" />
     <Compile Include="Controllers\ManagerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageManagerController.cs" />
-    <Compile Include="Controllers\ManageEmployeeController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Exception\CustomException.cs" />
     <Compile Include="Global.asax.cs">
@@ -1233,8 +1231,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\ManageEmployee\Add.cshtml" />
-    <Content Include="Views\ManageEmployee\Index.cshtml" />
     <Content Include="Views\Employee\Detail.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
@@ -1312,8 +1308,12 @@
     <Content Include="Views\Employee\ListByManager.cshtml" />
     <Content Include="Views\Shared\_DashboardLayout.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\ManageManager\Add.cshtml" />
-    <Content Include="Views\ManageManager\Index.cshtml" />
+    <Content Include="Views\Manager\Detail.cshtml" />
+    <Content Include="Views\Manager\List.cshtml" />
+    <Content Include="Views\Manager\Add.cshtml" />
+    <Content Include="Views\Manager\Index.cshtml" />
+    <Content Include="Views\Employee\Add.cshtml" />
+    <Content Include="Views\Employee\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -24,21 +24,13 @@
     @*include file js đánh giá*@
     <script src="~/Content/js/rating.star.js"></script>
 }
-<form id="frmRate" method="post" action="@Url.Action("RateProductIndex", "Product")">
-    <input id="proId" type="hidden" name="proId" />
-    <input id="rateId" type="hidden" name="rateId" value="0" />
-    <input id="rate" type="hidden" name="rate" value="0" />
-</form>
-<form id="frmAddCI" method="post" action="@Url.Action("AddCIFromIndex", "Cart")">
-    <input id="pId" type="hidden" name="proId" />
-</form>
 
 <!-- Services Section -->
 <section id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Danh sách Manager</h2>
+                <h2 class="section-heading">Managers</h2>
             </div>
         </div>
         <div class="row text-center">

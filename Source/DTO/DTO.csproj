@@ -198,27 +198,11 @@
     <Compile Include="ApiObjects\ApiManager.cs" />
     <Compile Include="ApiObjects\ApiEmployee.cs" />
     <Compile Include="ApiObjects\ApiEntity.cs" />
-    <Compile Include="Models\Employee.cs">
-      <DependentUpon>QLNVEntities.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\QLNVEntities.Context.cs">
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QLNVEntities.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\QLNVEntities.cs">
       <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLNVEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\QLNVEntities.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLNVEntities.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>QLNVEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -227,13 +211,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="Models\QLNVEntities.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>QLNVEntities.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Models\QLNVEntities.edmx.diagram">
-      <DependentUpon>QLNVEntities.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -247,18 +224,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Models\QLNVEntities.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>QLNVEntities.edmx</DependentUpon>
-      <LastGenOutput>QLNVEntities.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\QLNVEntities.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>QLNVEntities.edmx</DependentUpon>
-      <LastGenOutput>QLNVEntities.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

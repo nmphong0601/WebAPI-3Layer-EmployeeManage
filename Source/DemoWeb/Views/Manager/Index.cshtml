@@ -1,24 +1,21 @@
 ﻿@using DemoWeb.Models
 @using DemoWeb.Ultilities
 
-@model IList<Employee>
+@model IList<Manager>
 @{
-   Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
 
 @section style{
     <style type="text/css">
-       img{
-           height:50px;
-           width:50px;
-       }     
+        img {
+            height: 50px;
+            width: 50px;
+        }
     </style>
 }
 
-@*Load hình và thông tin*@
-
 @section script{
-   
     <script type="text/javascript">
         $('a[name="aDelete"]').on('click', function () {
 
@@ -37,26 +34,30 @@
     </script>
 }
 
-
-
 @if (Model.Count == 0)
 {
-    @:Không Có Nhân Viên
-
+    @:No Manager Found
+    <div class="row">
+        <div class="col-md-12">
+            <a class="btn btn-primary" href="@Url.Action("Add","Manager")" title="Add new manager">
+                <i class="fa fa-plus"></i> &nbsp; Add Manager
+            </a>
+        </div>
+    </div>
 }
 else
 {
     <section class="content-header">
         <h1>
-            Quản lý nhân viên
+            Manager Management
         </h1>
     </section>
 
-    <form id="frmDelete" method="post" action="@Url.Action("Delete", "ManageEmployee")">
+    <form id="frmDelete" method="post" action="@Url.Action("Delete", "Manager")">
         <input id="pId" type="hidden" name="id" />
     </form>
 
-    <form id="frmUpdate" method="post" action="@Url.Action("Update", "ManageEmployee")">
+    <form id="frmUpdate" method="post" action="@Url.Action("Update", "Manager")">
         <input id="pIdUpdate" type="hidden" name="id">
     </form>
 
@@ -67,14 +68,14 @@ else
                 <thead>
                     <tr>
                         <th>STT</th>
-                        <th>Tên Nhân Viên</th>
-                        <th>Ngày sinh</th>
+                        <th>Full Name</th>
+                        <th>Date Of Birth</th>
                         <th>&nbsp;</th>
                     </tr>
                 </thead>
                 <tbody>
                     @{
-                         int stt = 0;
+                        int stt = 0;
                     }
                     @foreach (var employee in Model)
                     {
@@ -95,12 +96,12 @@ else
                             </td>
                         </tr>
                     }
-                </tbody>                
+                </tbody>
             </table>
-            <a class="btn btn-primary" href="@Url.Action("Add","ManageEmployee")" title="Thêm mới nhân viên">
-                <i class="fa fa-plus"></i> &nbsp; Thêm nhân viên
+            <a class="btn btn-primary" href="@Url.Action("Add","Manager")" title="Add new manager">
+                <i class="fa fa-plus"></i> &nbsp; Add Manager
             </a>
-        </div>       
+        </div>
     </div>
 }
 

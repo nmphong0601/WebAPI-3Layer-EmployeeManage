@@ -1,7 +1,7 @@
 ﻿@using DemoWeb.Models
 @using DemoWeb.Ultilities
 
-@model IList<Manager>
+@model IList<Employee>
 @{
    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
@@ -14,8 +14,6 @@
        }     
     </style>
 }
-
-@*Load hình và thông tin*@
 
 @section script{
    
@@ -41,22 +39,22 @@
 
 @if (Model.Count == 0)
 {
-    @:Không Có Manager
+    @:No Employee Found
 
 }
 else
 {
     <section class="content-header">
         <h1>
-            Quản lý nhân viên
+            Employee Management
         </h1>
     </section>
 
-    <form id="frmDelete" method="post" action="@Url.Action("Delete", "ManageManager")">
+    <form id="frmDelete" method="post" action="@Url.Action("Delete", "Employee")">
         <input id="pId" type="hidden" name="id" />
     </form>
 
-    <form id="frmUpdate" method="post" action="@Url.Action("Update", "ManageManager")">
+    <form id="frmUpdate" method="post" action="@Url.Action("Update", "Employee")">
         <input id="pIdUpdate" type="hidden" name="id">
     </form>
 
@@ -67,8 +65,8 @@ else
                 <thead>
                     <tr>
                         <th>STT</th>
-                        <th>Tên Nhân Viên</th>
-                        <th>Ngày sinh</th>
+                        <th>Full Name</th>
+                        <th>Date Of Birth</th>
                         <th>&nbsp;</th>
                     </tr>
                 </thead>
@@ -97,8 +95,8 @@ else
                     }
                 </tbody>                
             </table>
-            <a class="btn btn-primary" href="@Url.Action("Add","ManageManager")" title="Thêm mới manager">
-                <i class="fa fa-plus"></i> &nbsp; Thêm nhân viên
+            <a class="btn btn-primary" href="@Url.Action("Add","Employee")" title="Add new employeer">
+                <i class="fa fa-plus"></i> &nbsp; Add Employeer
             </a>
         </div>       
     </div>

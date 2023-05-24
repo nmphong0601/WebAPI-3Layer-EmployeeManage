@@ -34,14 +34,23 @@
 
 @*Nội dung*@
 <div class="row">
+    @if (Session["Message"] != null)
+    {
+        <div class="col-md-8 col-sm-12 center-block" style="float:none; color: red;">
+            <div class="form-group">
+                @Session["Message"]
+            </div>
+        </div>
+    }
+
     <div class="col-md-8 col-sm-12 center-block" style="float:none">
         <div class="form-group">
-            <button type="button" class="btn btn-primary" id="add-manager" name="add-manager" onclick="location.href='@Url.Action("AddManager", "ManageManager")'">
+            <button type="button" class="btn btn-primary" id="add-manager" name="add-manager" onclick="location.href='@Url.Action("AddManager", "Manager")'">
                 <i class="fa fa-plus"></i>
                 &nbsp; Add Manager
             </button>
         </div>
-        @using (Html.BeginForm("Add", "ManageManager", FormMethod.Post, new { @class = "form-horizontal", id = "frmAdd", enctype = "multipart/form-data" }))
+        @using (Html.BeginForm("Add", "Manager", FormMethod.Post, new { @class = "form-horizontal", id = "frmAdd", enctype = "multipart/form-data" }))
         {
 
             for (int idx = 0; Model.Count > 0 && idx < Model.Count; idx++)
@@ -58,7 +67,7 @@
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <button type="button" class="btn btn-warning" onclick="location.href='@Url.Action("AddEmployee", "ManageManager", new { managerId = idx })'">
+                                <button type="button" class="btn btn-warning" onclick="location.href='@Url.Action("AddEmployee", "Manager", new { managerId = idx })'">
                                     <i class="fa fa-plus"></i>
                                     &nbsp; Add Employee
                                 </button>
@@ -79,7 +88,7 @@
                                         <div class="form-group">
                                             @Html.LabelFor(m => Model[idx].Employees[index].DOB, "Date Of Birth:", new { @class = "col-sm-4 control-label" })
                                             <div class="col-sm-8">
-                                                @Html.TextBoxFor(m => Model[idx].Employees[index].DOB, new { @class = " form-control ", placeholder = "Date Of Birth" })
+                                                @Html.TextBoxFor(m => Model[idx].Employees[index].DOB, "{0:MM/dd/yyyy}", new { @class = " form-control ", placeholder = "MM/dd/yyyy", data_provide = "datepicker", data_date_format = "mm/dd/yyyy" })
                                             </div>
                                         </div>
                                     </div>

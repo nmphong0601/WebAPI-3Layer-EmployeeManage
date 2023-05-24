@@ -6,7 +6,6 @@
 @{
     Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
-@*trang thêm sản phẩm ở phần Admin*@
 
 @section style{
     <link href="~/Content/css/bootstrap-select.min.css" rel="stylesheet" />
@@ -31,17 +30,17 @@
 
 <div class="row">
     <div class="col-md-12">
-        @using (Html.BeginForm("Add", "ManageProduct", FormMethod.Post, new { @class = "form-horizontal", id = "frmAdd", enctype = "multipart/form-data" }))
+        @using (Html.BeginForm("Add", "Employee", FormMethod.Post, new { @class = "form-horizontal", id = "frmAdd", enctype = "multipart/form-data" }))
         {
             <div class="form-group">
-                @Html.LabelFor(m => m.FullName, "Họ và Tên:", new { @class = "col-sm-2 control-label" })
+                @Html.LabelFor(m => m.FullName, "Full Name:", new { @class = "col-sm-2 control-label" })
                 <div class="col-sm-4">
-                    @Html.TextBoxFor(m => m.FullName, new { @class = " form-control ", placeholder = "Họ và Tên" })
+                    @Html.TextBoxFor(m => m.FullName, new { @class = " form-control ", placeholder = "Full Name" })
                 </div>
 
-                @Html.LabelFor(m => m.DOB, "Ngày sinh:", new { @class = "col-sm-2 control-label" })
+                @Html.LabelFor(m => m.DOB, "Date Of Birth:", new { @class = "col-sm-2 control-label" })
                 <div class="col-sm-4">
-                    @Html.TextBoxFor(m => m.DOB, new { @class = " form-control ", placeholder = "Ngày sinh" })
+                    @Html.TextBoxFor(m => m.DOB, new { @class = " form-control ", placeholder = "Date Of Birth" })
                 </div>
             </div>
 
@@ -49,7 +48,7 @@
                 <div class="col-sm-offset-3 col-sm-9">
                     <button type="submit" class="btn btn-primary">
                         <i class="fa fa-plus"></i>
-                        &nbsp; Thêm
+                        &nbsp; Add
                     </button>
                 </div>
             </div>

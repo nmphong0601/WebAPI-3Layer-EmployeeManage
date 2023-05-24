@@ -1,48 +1,40 @@
 using System;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.IO;
 
 namespace DTO.Models
 {
-    public static string MDF_Directory
-    {
-        get
-        {
-            var directoryPath = AppDomain.CurrentDomain.BaseDirectory;
-            return Path.GetFullPath(Path.Combine(directoryPath, "..//Databases"));
-        }
-    }
-    
     public partial class QLNVEntities : DbContext
     {
-        public virtual DbSet<Employee> Employee { get; set; }
-        public virtual DbSet<Manager> Manager { get; set; }
+        public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Manager> Managers { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public static string MDF_Directory
         {
-            if (!optionsBuilder.IsConfigured)
+            get
             {
-                optionsBuilder.UseSqlServer("data source=(LocalDB)\\MSSQLLocalDB;attachdbfilename=" + MDF_Directory + "\\QLNV.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;");
+                var directoryPath = AppDomain.CurrentDomain.BaseDirectory;
+                return Path.GetFullPath(Path.Combine(directoryPath, "App_Data//Databases"));
             }
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public static string Connection_String
         {
-            modelBuilder.Entity<Employee>(entity =>
+            get
             {
-                entity.Property(e => e.Id).HasColumnName("Id");
-                
-                entity.HasOne(m => m.Manager)
-                    .WithMany(e => e.Employee)
-                    .HasForeignKey(d => d.ManagerId)
-                    .OnDelete(DeleteBehavior.Cascade)
-                    .HasConstraintName("FK_Employee_Manager");
-            });
+                return "data source=(LocalDB)\\MSSQLLocalDB;attachdbfilename=" + MDF_Directory + "\\QLNV.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;";
+            }
+        }
 
-            modelBuilder.Entity<Manager>(entity =>
-            {
-                entity.Property(e => e.Id).HasColumnName("Id");
-            });
+        public QLNVEntities()
+            : base(Connection_String)
+        {
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

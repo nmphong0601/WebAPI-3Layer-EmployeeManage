@@ -9,6 +9,8 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="~/Content/bootstrap/css/bootstrap.min.css">
+    <!-- Bootstrap Datepicker -->
+    <link rel="stylesheet" href="~/Content/plugins/datepicker/datepicker3.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
@@ -87,7 +89,7 @@
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">Toggle navigation</span>
                 </a>
-               
+
 
             </nav>
         </header>
@@ -99,8 +101,8 @@
                 <ul class="sidebar-menu">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active treeview">
-                        <a href="@Url.Action("Index", "ManageEmployee")" role="button">
-                            <i class="fa fa-dashboard"></i> <span>Quản lý nhân viên</span>
+                        <a href="@Url.Action("Index", "Manager")" role="button">
+                            <i class="fa fa-user"></i> <span>Manager Management</span>
                         </a>
                     </li>
                 </ul>
@@ -120,6 +122,8 @@
     <script src="~/Content/plugins/jQuery/jquery-2.2.3.min.js"></script>
     <!-- Bootstrap 3.3.6 -->
     <script src="~/Content/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Datepicker -->
+    <script src="~/Content/plugins/datepicker/bootstrap-datepicker.js"></script>
     <!-- FastClick -->
     <script src="~/Content/plugins/fastclick/fastclick.js"></script>
     <!-- AdminLTE App -->

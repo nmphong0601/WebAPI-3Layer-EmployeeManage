@@ -3,8 +3,6 @@
 
 @model IList<Employee>
 
-@*Định dạng kích thước khung*@
-
 @section style{
     <style type="text/css">
        
@@ -30,25 +28,12 @@
 
 @if (Model.Count == 0)
 {
-    <p>Không có nhân viên</p>
+    <p>No Employee Found</p>
 }
 else
 {
-    <form id="frmAddCI" method="post" action="@Url.Action("AddCIFromListProduct", "Cart")">
-        <input id="pId"  type="hidden" name="proId"/>
-        <input id="cId" type="hidden" name="catId" />
-        <input id="p" type="hidden" name="page" />
-    </form>
-    <form id="frmRate" method="post" action="@Url.Action("RateProduct", "Product")">
-        <input id="proId" type="hidden" name="proId" />
-        <input id="rateId" type="hidden" name="rateId" value="0"/>
-        <input id="rate" type="hidden" name="rate" value="0" />
-        <input id="catId" type="hidden" name="catId" />
-        <input id="page" type="hidden" name="page" />
-    </form>
-
     <div class="row" >
-        <h1 style="text-align:center">Danh Sách Sản Phẩm</h1>
+        <h1 style="text-align:center">Employees</h1>
         @foreach (var employee in Model)
         {
             <div class="col-sm-8 col-md-6" >

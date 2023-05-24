@@ -1,0 +1,92 @@
+﻿@using DemoWeb.Models
+@using DemoWeb.Ultilities
+
+@model IList<Manager>
+
+@*Định dạng kích thước khung*@
+
+@section style{
+    <style type="text/css">
+       
+         .thumbnail{
+            min-height: 500px;
+            }
+         body{
+             background-color: #eeeeee;
+         }
+         img{
+             margin-top: 23px;
+         }
+         li{
+             display:compact;
+             text-align:left;
+         }
+         table{
+             text-align:left;
+         }
+         
+    </style>
+    }
+
+@if (Model.Count == 0)
+{
+<p>No manager found</p>
+}
+else
+{
+    <div class="row" >
+        <h1 style="text-align:center">Managers</h1>
+        @foreach (var manager in Model)
+        {
+            <div class="col-sm-8 col-md-6" >
+                <div class="thumbnail">
+                    <div class="text-center col-md-4">       
+                    </div>
+                    <div class="col-md-8">
+                        <div class="caption">
+                            <h3 class="caption-green">@manager.FullName</h3>                  
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        }
+    </div>
+
+    //Phân trang
+    if (ViewBag.totalPage > 1)
+    {
+        <div class="panel-footer text-center">
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li>
+                        <a href="?page=@(ViewBag.curPage-1)" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    @*Số trang sẽ hiện theo tương ứng mà nó cần chứa*@
+                    @for (int i = 1; i <= ViewBag.totalPage; i++)
+                    {
+                        if (i == ViewBag.curPage)
+                        {
+                            <li class="active"><a href="?page=@i">@i</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="?page=@i">@i</a></li>
+                        }
+                    }
+
+
+                    <li>
+                        <a href="?page=@(ViewBag.curPage+1)" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    }
+
+}
+

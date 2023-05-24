@@ -3,7 +3,6 @@ using DTO.ApiObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Http;
 
 namespace WebApi.Controllers
@@ -26,6 +25,7 @@ namespace WebApi.Controllers
             {
                 throw ex;
             }
+
             return apiEmployees;
         }
 
