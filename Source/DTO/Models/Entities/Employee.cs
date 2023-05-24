@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DTO.Models
+namespace DTO.Models.Entities
 {
     using System;
     using System.Collections.Generic;
