@@ -29,8 +29,33 @@
     <script src="~/Content/js/bootstrap-select.min.js"></script>
     <script src="~/Content/js/fileinput.min.js"></script>
     <script src="~/Content/js/summernote.min.js"></script>
-}
+    <script type="text/javascript">
+        $('button[name="add-manager"]').on('click', function () {
+            $.ajax({
+                url: "AddManager",
+                type: "Get",
+                data: $("#frmAdd").serialize(),
+                success: function (result) {
+                    //alert("Ajax call is done");
+                    location.reload();
+                }
+            });
+        });
+        $('button[name="add-employee"]').on('click', function () {
+            var managerId = $(this).data('id');
 
+            $.ajax({
+                url: "AddEmployee",
+                type: "Get",
+                data: $("#frmAdd").serialize() + "&managerId=" + managerId,
+                success: function (result) {
+                    //alert("Ajax call is done");
+                    location.reload();
+                }
+            });
+        });
+    </script>
+}
 
 @*Nội dung*@
 <div class="row">
@@ -39,35 +64,36 @@
         <div class="col-md-8 col-sm-12 center-block" style="float:none; color: red;">
             <div class="form-group">
                 @Session["Message"]
+                @Model.Count
             </div>
         </div>
     }
 
     <div class="col-md-8 col-sm-12 center-block" style="float:none">
         <div class="form-group">
-            <button type="button" class="btn btn-primary" id="add-manager" name="add-manager" onclick="location.href='@Url.Action("AddManager", "Manager")'">
+            <button type="button" class="btn btn-primary" id="add-manager" name="add-manager">
                 <i class="fa fa-plus"></i>
                 &nbsp; Add Manager
             </button>
         </div>
         @using (Html.BeginForm("Add", "Manager", FormMethod.Post, new { @class = "form-horizontal", id = "frmAdd", enctype = "multipart/form-data" }))
         {
-
             for (int idx = 0; Model.Count > 0 && idx < Model.Count; idx++)
             {
                 <div class="panel">
                     <div class="panel-body">
                         <div class="col-sm-12">
                             <div class="form-group">
-                                @Html.LabelFor(m => Model[idx].FullName, "Full Name:", new { @class = "col-sm-3 control-label" })
+                                @Html.LabelFor(m => m[idx].FullName, "Full Name:", new { @class = "col-sm-3 control-label" })
                                 <div class="col-sm-9">
-                                    @Html.TextBoxFor(m => Model[idx].FullName, new { @class = " form-control ", placeholder = "Full Name" })
+                                    @Html.TextBoxFor(m => m[idx].FullName, new { @class = "form-control", placeholder = "Full Name" })
+                                    @Html.ValidationMessageFor(m => m[idx].FullName)
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <button type="button" class="btn btn-warning" onclick="location.href='@Url.Action("AddEmployee", "Manager", new { managerId = idx })'">
+                                <button type="button" class="btn btn-warning" data-id="@idx" id="add-employee" name="add-employee">
                                     <i class="fa fa-plus"></i>
                                     &nbsp; Add Employee
                                 </button>
@@ -78,17 +104,18 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            @Html.LabelFor(m => Model[idx].Employees[index].FullName, "Full Name:", new { @class = "col-sm-4 control-label" })
+                                            @Html.LabelFor(m => m[idx].Employees[index].FullName, "Full Name:", new { @class = "col-sm-4 control-label" })
                                             <div class="col-sm-8">
-                                                @Html.TextBoxFor(m => Model[idx].Employees[index].FullName, new { @class = " form-control ", placeholder = "Full Name" })
+                                                @Html.TextBoxFor(m => m[idx].Employees[index].FullName, new { @class = " form-control ", placeholder = "Full Name" })
+                                                @Html.ValidationMessageFor(m => m[idx].Employees[index].FullName)
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            @Html.LabelFor(m => Model[idx].Employees[index].DOB, "Date Of Birth:", new { @class = "col-sm-4 control-label" })
+                                            @Html.LabelFor(m => m[idx].Employees[index].DOB, "Date Of Birth:", new { @class = "col-sm-4 control-label" })
                                             <div class="col-sm-8">
-                                                @Html.TextBoxFor(m => Model[idx].Employees[index].DOB, "{0:MM/dd/yyyy}", new { @class = " form-control ", placeholder = "MM/dd/yyyy", data_provide = "datepicker", data_date_format = "mm/dd/yyyy" })
+                                                @Html.TextBoxFor(m => m[idx].Employees[index].DOB, "{0:MM/dd/yyyy}", new { @class = " form-control ", placeholder = "MM/dd/yyyy", data_provide = "datepicker", data_date_format = "mm/dd/yyyy" })
                                             </div>
                                         </div>
                                     </div>

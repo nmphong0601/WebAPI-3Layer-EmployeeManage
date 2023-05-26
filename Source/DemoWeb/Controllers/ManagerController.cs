@@ -63,37 +63,25 @@ namespace DemoWeb.Controllers
             return View(managers);
         }
 
-        public ActionResult AddManager()
+        public ActionResult AddManager(List<Manager> managers)
         {
             var manager = new Manager();
             manager.Employees = new List<Employee>();
 
-            if (Session["Manangers"] == null)
-            {
-                Session["Manangers"] = new List<Manager>();
-            }
-            var managers = Session["Manangers"] as List<Manager>;
-
             managers.Add(manager);
             Session["Manangers"] = managers;
 
-            return RedirectToAction("Add", "Manager");
+            return RedirectToAction("Add");
         }
 
-        public ActionResult AddEmployee(int managerId)
+        public ActionResult AddEmployee(int managerId, List<Manager> managers)
         {
             var employee = new Employee();
-
-            if (Session["Manangers"] == null)
-            {
-                Session["Manangers"] = new List<Manager>();
-            }
-            var managers = Session["Manangers"] as List<Manager>;
 
             managers[managerId].Employees.Add(employee);
             Session["Manangers"] = managers;
 
-            return RedirectToAction("Add", "Manager");
+            return RedirectToAction("Add");
         }
 
         // DELETE: Manager/Delete
@@ -112,11 +100,13 @@ namespace DemoWeb.Controllers
         public ActionResult Add(List<Manager> managers)
         {
             Session["Message"] = null;
-            if (managers.Count >= 3)
+            Session["Manangers"] = managers;
+
+            if (managers != null && managers.Count >= 1)
             {
                 foreach (var manager in managers)
                 {
-                    if(manager.Employees.Count >= 30)
+                    if(manager.Employees != null && manager.Employees.Count >= 2)
                     {
                         var managerInserted = CSDLQLNV.InsertManager(manager);
                     }
