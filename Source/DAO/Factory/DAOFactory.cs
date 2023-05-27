@@ -28,11 +28,19 @@ namespace DAO.Factory
     {
         public ApiMappingProfile()
         {
-            CreateMap<ApiEmployee, Employee>().ReverseMap();
-            CreateMap<Employee, ApiEmployee>().ReverseMap();
+            //CreateMap<ApiEmployee, Employee>().ForMember(dest => dest.Manager, conf => conf.MapFrom(src => src.Manager))
+            //                                  .ForMember(dest => dest.Employees, conf => conf.MapFrom(src => src.Employees));
+            //CreateMap<Employee, ApiEmployee>().ForMember(dest => dest.Manager, conf => conf.MapFrom(src => src.Manager))
+            //                                  .ForMember(dest => dest.Employees, conf => conf.MapFrom(src => src.Employees));
 
-            CreateMap<ApiManager, Employee>().ReverseMap();
-            CreateMap<Employee, ApiManager>().ReverseMap();
+            //CreateMap<ApiManager, Employee>().ForMember(dest => dest.Employees, conf => conf.MapFrom(src => src.Employees));
+            //CreateMap<Employee, ApiManager>().ForMember(dest => dest.Employees, conf => conf.MapFrom(src => src.Employees));
+
+            CreateMap<ApiEmployee, Employee>().ForMember(dest => dest.Employees, option => option.Ignore());
+            CreateMap<Employee, ApiEmployee>().ForMember(dest => dest.Employees, option => option.Ignore());
+
+            CreateMap<ApiManager, Employee>().ForMember(dest => dest.Employees, option => option.Ignore());
+            CreateMap<Employee, ApiManager>().ForMember(dest => dest.Employees, option => option.Ignore());
         }
     }
 }

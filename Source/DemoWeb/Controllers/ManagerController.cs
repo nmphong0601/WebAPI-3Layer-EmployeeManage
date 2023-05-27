@@ -15,6 +15,7 @@ namespace DemoWeb.Controllers
         // GET: Managers
         public ActionResult Index()
         {
+            Session["Manangers"] = null;
             var l = CSDLQLNV.GetManagers().ToList();
             return View(l);
         }
@@ -84,17 +85,6 @@ namespace DemoWeb.Controllers
             return RedirectToAction("Add");
         }
 
-        // DELETE: Manager/Delete
-        public ActionResult Delete(int id)
-        {
-            var manager = CSDLQLNV.GetSingleManager(id);
-            if (manager != null)
-            {
-                CSDLQLNV.RemoveManager(id);
-            }
-            return RedirectToAction("Index");
-        }
-
         // Post: Manager/Add
         [HttpPost]
         public ActionResult Add(List<Manager> managers)
@@ -102,11 +92,11 @@ namespace DemoWeb.Controllers
             Session["Message"] = null;
             Session["Manangers"] = managers;
 
-            if (managers != null && managers.Count >= 1)
+            if (managers != null && managers.Count >= 3)
             {
                 foreach (var manager in managers)
                 {
-                    if(manager.Employees != null && manager.Employees.Count >= 2)
+                    if(manager.Employees != null && manager.Employees.Count >= 10)
                     {
                         var managerInserted = CSDLQLNV.InsertManager(manager);
                     }
@@ -123,6 +113,28 @@ namespace DemoWeb.Controllers
                 return RedirectToAction("Add", "Manager");
             }
             
+            return RedirectToAction("Index");
+        }
+
+
+        // Post: Manager/Update
+        [HttpPost]
+        public ActionResult Update(int id, Manager manager)
+        {
+            manager.Id = id;
+            if (manager != null)
+            {
+                CSDLQLNV.UpdateManager(manager);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        // DELETE: Manager/Delete
+        [HttpPost]
+        public ActionResult Delete(int id)
+        {
+            CSDLQLNV.RemoveManager(id);
             return RedirectToAction("Index");
         }
     }

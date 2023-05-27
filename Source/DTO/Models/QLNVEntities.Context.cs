@@ -8,7 +8,7 @@ namespace DTO.Models
     public partial class QLNVEntities : DbContext
     {
         public virtual DbSet<Employee> Employees { get; set; }
-        public virtual DbSet<Manager> Managers { get; set; }
+        //public virtual DbSet<Manager> Managers { get; set; }
 
         public static string MDF_Directory
         {
@@ -30,11 +30,15 @@ namespace DTO.Models
         public QLNVEntities()
             : base(Connection_String)
         {
+            ////Disable initializer
+            //Database.SetInitializer<QLNVEntities>(null);
+
+            Database.SetInitializer<QLNVEntities>(new CreateDatabaseIfNotExists<QLNVEntities>());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            //base.OnModelCreating(modelBuilder);
         }
     }
 }

@@ -10,16 +10,16 @@
 @section script{
     @*xử lí nút bấm mua hàng*@
     <script type="text/javascript">
-       $('a[name="aAddItem"]').on('click', function () {
-           var pId = $(this).data('id');
-           $('#pId').val(pId);
-           $('#frmAddCI').submit();
-       });
-       $('div[name="stars"]').on('click', function () {
-           var pId = $(this).data('id');
-           $('#proId').val(pId);
-           $('#frmRate').submit();
-       });
+        $('a[name="aAddItem"]').on('click', function () {
+            var pId = $(this).data('id');
+            $('#pId').val(pId);
+            $('#frmAddCI').submit();
+        });
+        $('div[name="stars"]').on('click', function () {
+            var pId = $(this).data('id');
+            $('#proId').val(pId);
+            $('#frmRate').submit();
+        });
     </script>
     @*include file js đánh giá*@
     <script src="~/Content/js/rating.star.js"></script>
@@ -40,7 +40,14 @@
                 {
                     <div class="col-md-4 col-sm-6 portfolio-item">
                         <div class="portfolio-caption" style="border:#eeeeee 1px solid; background-color: #eeeeee;  ">
-                            <h4>@manager.FullName.Substring(0, 14)...</h4>
+                            @if (manager.FullName.Length > 15)
+                            {
+                                <h4>@manager.FullName.Substring(0, 15)...</h4>
+                            }
+                            else
+                            {
+                                <h4>@manager.FullName</h4>
+                            }
                         </div>
                     </div>
                 }
@@ -53,7 +60,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            
+
         </div>
     </div>
 </footer>

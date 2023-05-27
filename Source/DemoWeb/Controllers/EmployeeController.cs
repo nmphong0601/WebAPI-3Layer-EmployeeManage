@@ -68,22 +68,33 @@ namespace DemoWeb.Controllers
             return View(employee);
         }
 
-        // GET: Employee/Delete
-        public ActionResult Delete(int id)
+        // Post: Employee/Add
+        [HttpPost]
+        public ActionResult Add(Employee employee)
         {
-            var pD = CSDLQLNV.GetSingleEmployee(id);
-            if (pD != null)
-            {
-                CSDLQLNV.RemoveEmployee(id);
-            }
+            var managerInserted = CSDLQLNV.InsertEmployee(employee);
             return RedirectToAction("Index");
         }
 
-        // Post: Employee/Add
+        // Post: Employee/Update
         [HttpPost]
-        public ActionResult Add(Employee p)
+        public ActionResult Update(int id, Employee employee)
         {
-            return View(p);
+            employee.Id = id;
+            if (employee != null)
+            {
+                CSDLQLNV.UpdateEmployee(employee);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        // DELETE: Employee/Delete
+        [HttpPost]
+        public ActionResult Delete(int id)
+        {
+            CSDLQLNV.RemoveEmployee(id);
+            return RedirectToAction("Index");
         }
     }
 }

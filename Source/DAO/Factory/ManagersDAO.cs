@@ -20,8 +20,17 @@ namespace DAO.Factory
             var sqlStr = "Select * from Employees" + (filter != null ? " where IsManager = 1 " + filter + " ORDER BY " + sort : " where IsManager = 1 ORDER BY " + sort);
 
             var managers = db.Employees.SqlQuery(sqlStr).ToList();
+            var apiManagers = Mapper.Map<IEnumerable<Employee>, IEnumerable<ApiManager>>(managers);
 
-            return Mapper.Map<IEnumerable<Employee>, IEnumerable<ApiManager>>(managers);
+            foreach (var apiManager in apiManagers)
+            {
+                var sqlEmployeeStr = "Select * from Employees where ManagerId = "+ apiManager.Id + " ORDER BY DOB ASC";
+                var employees = db.Employees.SqlQuery(sqlEmployeeStr).ToList();
+
+                apiManager.Employees = Mapper.Map<List<Employee>, List<ApiEmployee>>(employees);
+            }
+
+            return apiManagers;
         }
 
         public IEnumerable<ApiManager> Paged(string keyword = null, string filter = null, string sort = "FullName DESC", int page = 1, int pageSize = 6)
@@ -39,12 +48,18 @@ namespace DAO.Factory
             return Mapper.Map<Employee, ApiManager>(db.Employees.Where(c => c.Id == id).FirstOrDefault());
         }
 
-        public ApiManager Add(ApiManager manager)
+        public ApiManager Add(ApiManager apiManager)
         {
-            db.Employees.Add(Mapper.Map<ApiManager, Employee>(manager));
+            var employees = Mapper.Map<List<ApiEmployee>, List<Employee>>(apiManager.Employees);
+            var manager = Mapper.Map<ApiManager, Employee>(apiManager);
+            
+            manager.IsManager = true;
+            manager.Employees = employees;
+
+            db.Employees.Add(manager);
             manager.Id = db.SaveChanges();
 
-            return manager;
+            return Mapper.Map<Employee, ApiManager>(manager);
         }
 
         public ApiManager Update(int? id, ApiManager manager)

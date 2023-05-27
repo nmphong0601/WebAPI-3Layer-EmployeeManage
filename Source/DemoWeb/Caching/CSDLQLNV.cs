@@ -155,7 +155,7 @@ namespace DemoWeb.Caching
             try
             {
                 var endpointString = serverUrl + "api/managers/" + id;
-                var managerDelete = Task.Run(() => DeleteAsync<Boolean>(endpointString)).Result;
+                var managerDelete = Task.Run(() => PutAsync<Boolean>(endpointString, null)).Result;
 
                 return managerDelete;
             }

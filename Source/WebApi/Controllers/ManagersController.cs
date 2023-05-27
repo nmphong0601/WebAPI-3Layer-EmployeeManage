@@ -96,23 +96,23 @@ namespace WebApi.Controllers
 
         //PUST: Update
         [HttpPut]
-        public ApiManager Put([FromBody] ApiManager apiCategorie)
+        public ApiManager Put([FromBody] ApiManager apiManager)
         {
             try
             {
-                int? id = apiCategorie.Id;
-                apiCategorie = service.Update(id, apiCategorie);
+                int? id = apiManager.Id;
+                apiManager = service.Update(id, apiManager);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
-            return apiCategorie;
+            return apiManager;
         }
 
         //DELETE
         [HttpPut]
-        public Boolean Delete(int? id)
+        public Boolean Delete([FromUri]int? id)
         {
             return service.Delete(id);
         }

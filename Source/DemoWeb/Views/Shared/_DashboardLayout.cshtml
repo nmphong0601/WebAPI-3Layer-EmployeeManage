@@ -105,6 +105,11 @@
                             <i class="fa fa-user"></i> <span>Manager Management</span>
                         </a>
                     </li>
+                    <li class="active treeview">
+                        <a href="@Url.Action("Index", "Employee")" role="button">
+                            <i class="fa fa-user"></i> <span>Employee Management</span>
+                        </a>
+                    </li>
                 </ul>
             </section>
             <!-- /.sidebar -->
@@ -112,9 +117,7 @@
         <div class="content-wrapper">
             <section class="content-header">
             </section>
-            <section class="content">
-                @RenderBody()
-            </section>
+            @RenderBody()
         </div>
     </div>
     <!-- ./wrapper -->

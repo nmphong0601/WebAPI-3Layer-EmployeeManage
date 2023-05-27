@@ -14,6 +14,8 @@ namespace DemoWeb.Models
         [Required(ErrorMessage = "Please enter full name.")]
         public string FullName { get; set; }
 
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/mm/yyyy}", ApplyFormatInEditMode = true)]
         public Nullable<System.DateTime> DOB { get; set; }
 
         public Nullable<bool> IsManager { get; set; }

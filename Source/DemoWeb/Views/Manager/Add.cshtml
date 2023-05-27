@@ -55,6 +55,11 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        $(function () { // will trigger when the document is ready
+            $('.datepicker').datepicker(); //Initialise any date pickers
+        });
+    </script>
 }
 
 @*Nội dung*@
@@ -64,7 +69,6 @@
         <div class="col-md-8 col-sm-12 center-block" style="float:none; color: red;">
             <div class="form-group">
                 @Session["Message"]
-                @Model.Count
             </div>
         </div>
     }
@@ -115,7 +119,7 @@
                                         <div class="form-group">
                                             @Html.LabelFor(m => m[idx].Employees[index].DOB, "Date Of Birth:", new { @class = "col-sm-4 control-label" })
                                             <div class="col-sm-8">
-                                                @Html.TextBoxFor(m => m[idx].Employees[index].DOB, "{0:MM/dd/yyyy}", new { @class = " form-control ", placeholder = "MM/dd/yyyy", data_provide = "datepicker", data_date_format = "mm/dd/yyyy" })
+                                                @Html.TextBoxFor(m => m[idx].Employees[index].DOB, "{0:dd/mm/yyyy}", new { @id = "datepicker" + "-" + idx + "-" + index, @class = "datepicker form-control", placeholder = "dd/mm/yyyy", data_provide = "datepicker", data_date_format = "dd/mm/yyyy" })
                                             </div>
                                         </div>
                                     </div>
