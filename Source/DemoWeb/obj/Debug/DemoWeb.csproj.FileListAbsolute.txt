@@ -226,4 +226,3 @@ D:\Projects\2023\WebAPI-3Layer-EmployeeManage-Git\Source\DemoWeb\obj\Debug\DemoW
 D:\Projects\2023\WebAPI-3Layer-EmployeeManage-Git\Source\DemoWeb\obj\Debug\DemoWeb.csproj.CopyComplete
 D:\Projects\2023\WebAPI-3Layer-EmployeeManage-Git\Source\DemoWeb\obj\Debug\DemoWeb.dll
 D:\Projects\2023\WebAPI-3Layer-EmployeeManage-Git\Source\DemoWeb\obj\Debug\DemoWeb.pdb
-D:\Projects\2023\WebAPI-3Layer-EmployeeManage-Git\Source\DemoWeb\obj\Debug\DemoWeb.csprojAssemblyReference.cache
