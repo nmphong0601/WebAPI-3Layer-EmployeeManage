@@ -1,33 +1,29 @@
 ﻿using DTO.Models;
-using Ultilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DAO.IFactory;
 using DTO.ApiObjects;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAO.Factory
 {
     public class ManagersDAO: IManagersDAO
     {
+        public IMapper mapper;
         private QLNVEntities db = new QLNVEntities();
 
         public IEnumerable<ApiManager> GetAll(string filter = null, string sort = "FullName DESC")
         {
             var sqlStr = "Select * from Employees" + (filter != null ? " where IsManager = 1 " + filter + " ORDER BY " + sort : " where IsManager = 1 ORDER BY " + sort);
 
-            var managers = db.Employees.SqlQuery(sqlStr).ToList();
-            var apiManagers = Mapper.Map<IEnumerable<Employee>, IEnumerable<ApiManager>>(managers);
+            var managers = db.Employees.FromSqlRaw(sqlStr).ToList();
+            var apiManagers = mapper.Map<IEnumerable<Employee>, IEnumerable<ApiManager>>(managers);
 
             foreach (var apiManager in apiManagers)
             {
                 var sqlEmployeeStr = "Select * from Employees where ManagerId = "+ apiManager.Id + " ORDER BY DOB ASC";
-                var employees = db.Employees.SqlQuery(sqlEmployeeStr).ToList();
+                var employees = db.Employees.FromSqlRaw(sqlEmployeeStr).ToList();
 
-                apiManager.Employees = Mapper.Map<List<Employee>, List<ApiEmployee>>(employees);
+                apiManager.Employees = mapper.Map<List<Employee>, List<ApiEmployee>>(employees);
             }
 
             return apiManagers;
@@ -45,13 +41,13 @@ namespace DAO.Factory
 
         public ApiManager GetSingle(int? id)
         {
-            return Mapper.Map<Employee, ApiManager>(db.Employees.Where(c => c.Id == id).FirstOrDefault());
+            return mapper.Map<Employee, ApiManager>(db.Employees.Where(c => c.Id == id).FirstOrDefault());
         }
 
         public ApiManager Add(ApiManager apiManager)
         {
-            var employees = Mapper.Map<List<ApiEmployee>, List<Employee>>(apiManager.Employees);
-            var manager = Mapper.Map<ApiManager, Employee>(apiManager);
+            var employees = mapper.Map<List<ApiEmployee>, List<Employee>>(apiManager.Employees);
+            var manager = mapper.Map<ApiManager, Employee>(apiManager);
             
             manager.IsManager = true;
             manager.Employees = employees;
@@ -59,7 +55,7 @@ namespace DAO.Factory
             db.Employees.Add(manager);
             manager.Id = db.SaveChanges();
 
-            return Mapper.Map<Employee, ApiManager>(manager);
+            return mapper.Map<Employee, ApiManager>(manager);
         }
 
         public ApiManager Update(int? id, ApiManager manager)
@@ -68,8 +64,8 @@ namespace DAO.Factory
             if (managerInDB != null)
             {
                 manager.Id = managerInDB.Id;
-                managerInDB = Mapper.Map<ApiManager, Employee>(manager);
-                db.Entry(managerInDB).State = System.Data.EntityState.Modified;
+                managerInDB = mapper.Map<ApiManager, Employee>(manager);
+                db.Entry(managerInDB).State = EntityState.Modified;
                 db.SaveChanges();
             }
 
@@ -89,12 +85,12 @@ namespace DAO.Factory
                     foreach (var emp in employees)
                     {
                         db.Employees.Remove(emp);
-                        db.Entry(emp).State = System.Data.EntityState.Deleted;
+                        db.Entry(emp).State = EntityState.Deleted;
                     }
                 }
 
                 isDelete = db.Employees.Remove(managerInDB) != null ? true : false;
-                db.Entry(managerInDB).State = System.Data.EntityState.Deleted;
+                db.Entry(managerInDB).State = EntityState.Deleted;
 
                 db.SaveChanges();
             }

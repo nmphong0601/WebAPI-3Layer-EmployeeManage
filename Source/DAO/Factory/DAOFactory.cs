@@ -12,15 +12,35 @@ namespace DAO.Factory
 {
     public class DAOFactory: IDAOFactory
     {
-        public IEmployeesDAO EmployeesDAO { get { return new EmployeesDAO(); } }
-        public IManagersDAO ManagersDAO { get { return new ManagersDAO(); } }
-        
+        public IEmployeesDAO EmployeesDAO { 
+            get { 
+                var managerDAO = new EmployeesDAO();
+                managerDAO.mapper = mapper;
+                return managerDAO;
+            } 
+        }
+        public IManagersDAO ManagersDAO { 
+            get {
+                var managerDAO = new ManagersDAO();
+                managerDAO.mapper = mapper;
+                return managerDAO;
+            } 
+        }
+
+        public static readonly IMapper mapper;
+
         static DAOFactory()
         {
-            Mapper.Initialize(cfg =>
-            {
+            //Mapper.Initialize(cfg =>
+            //{
+            //    cfg.AddProfile<ApiMappingProfile>();
+            //});
+
+            var config = new MapperConfiguration(cfg => {
                 cfg.AddProfile<ApiMappingProfile>();
             });
+
+            mapper = config.CreateMapper();
         }
     }
 

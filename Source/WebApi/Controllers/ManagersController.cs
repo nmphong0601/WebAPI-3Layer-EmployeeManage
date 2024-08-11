@@ -1,21 +1,24 @@
-﻿using BUS;
+using Microsoft.AspNetCore.Mvc;
+using BUS;
 using DTO.ApiObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
 
-namespace WebApi.Controllers
+namespace WebAPI.Controllers
 {
-    public class ManagersController : BaseApiController
+    [ApiController]
+    [Route("api/v1/[controller]")]
+    public class ManagersController : ControllerBase
     {
+        private readonly ILogger<ManagersController> _logger;
         private ManagersBUS service = new ManagersBUS();
-        //[AuthActionFilter]
+
+        public ManagersController(ILogger<ManagersController> logger)
+        {
+            _logger = logger;
+        }
 
         // GET: Collection
         [HttpGet]
-        public IEnumerable<ApiManager> GetAll(string filter = null, string sort = "FullName DESC")
+        public IEnumerable<ApiManager> Get(string filter = null, string sort = "FullName DESC")
         {
             IEnumerable<ApiManager> apiManagers = new List<ApiManager>();
             try
@@ -31,7 +34,7 @@ namespace WebApi.Controllers
 
         // GET: Paging
         [HttpGet]
-        [Route("api/Managers/Paging")]
+        [Route("Paging")]
         public Dictionary<string, object> GetPaged(string keyword = null, string filter = null, string sort = "FullName DESC", int page = 1, int pageSize = 6)
         {
             Dictionary<string, object> result = new Dictionary<string, object>();
@@ -65,6 +68,7 @@ namespace WebApi.Controllers
 
         //GET: Gingle
         [HttpGet]
+        [Route("{id?}")]
         public ApiManager GetSingle(int? id)
         {
             ApiManager apiManager = new ApiManager();
@@ -112,7 +116,8 @@ namespace WebApi.Controllers
 
         //DELETE
         [HttpPut]
-        public Boolean Delete([FromUri]int? id)
+        [Route("{id?}")]
+        public Boolean Delete(int? id)
         {
             return service.Delete(id);
         }

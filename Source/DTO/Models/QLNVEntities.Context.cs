@@ -1,7 +1,4 @@
-using System;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using System.IO;
+using Microsoft.EntityFrameworkCore;
 
 namespace DTO.Models
 {
@@ -27,18 +24,21 @@ namespace DTO.Models
             }
         }
 
-        public QLNVEntities()
-            : base(Connection_String)
+        private static DbContextOptions GetOptions(string connectionString)
+        {
+            return SqlServerDbContextOptionsExtensions.UseSqlServer(new DbContextOptionsBuilder(), connectionString, o => o.CommandTimeout(300)).Options;
+        }
+
+        public QLNVEntities() : base(GetOptions(Connection_String))
         {
             ////Disable initializer
             //Database.SetInitializer<QLNVEntities>(null);
-
-            Database.SetInitializer<QLNVEntities>(new CreateDatabaseIfNotExists<QLNVEntities>());
         }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Employee>().ToTable("Employee");
         }
     }
 }

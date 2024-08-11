@@ -1,20 +1,24 @@
-﻿using BUS;
+using Microsoft.AspNetCore.Mvc;
+using BUS;
 using DTO.ApiObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
 
-namespace WebApi.Controllers
+namespace WebAPI.Controllers
 {
-    public class EmployeesController : BaseApiController
+    [ApiController]
+    [Route("api/v1/[controller]")]
+    public class EmployeesController : BaseController
     {
+        private readonly ILogger<EmployeesController> _logger;
         private EmployeesBUS service = new EmployeesBUS();
-        //[AuthActionFilter]
+
+        public EmployeesController(ILogger<EmployeesController> logger)
+        {
+            _logger = logger;
+        }
 
         // GET: Collection
         [HttpGet]
-        public IEnumerable<ApiEmployee> GetAll(string filter = null, string sort = "DOB DESC")
+        public IEnumerable<ApiEmployee> Get(string filter = null, string sort = "DOB DESC")
         {
             IEnumerable<ApiEmployee> apiEmployees = new List<ApiEmployee>();
             try
@@ -31,7 +35,7 @@ namespace WebApi.Controllers
 
         // GET: Paging
         [HttpGet]
-        [Route("api/Employees/Paging")]
+        [Route("Paging")]
         public Dictionary<string, object> GetPaged(string keyword = null, string filter = null, string sort = "DOB DESC", int page = 1, int pageSize = 6)
         {
             Dictionary<string, object> result = new Dictionary<string, object>();
@@ -65,6 +69,7 @@ namespace WebApi.Controllers
 
         //GET: Gingle
         [HttpGet]
+        [Route("{id?}")]
         public ApiEmployee GetSingle(int? id)
         {
             ApiEmployee apiEmployee = new ApiEmployee();
@@ -81,7 +86,7 @@ namespace WebApi.Controllers
 
         //POST: Insert
         [HttpPost]
-        public ApiEmployee Post([FromBody]ApiEmployee apiEmployee)
+        public ApiEmployee Post([FromBody] ApiEmployee apiEmployee)
         {
             try
             {
@@ -96,7 +101,7 @@ namespace WebApi.Controllers
 
         //PUST: Update
         [HttpPut]
-        public ApiEmployee Put([FromBody]ApiEmployee apiEmployee)
+        public ApiEmployee Put([FromBody] ApiEmployee apiEmployee)
         {
             try
             {
@@ -112,6 +117,7 @@ namespace WebApi.Controllers
 
         //DELETE
         [HttpPut]
+        [Route("{id?}")]
         public Boolean Delete(int? id)
         {
             return service.Delete(id);

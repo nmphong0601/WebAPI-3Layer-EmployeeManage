@@ -1,27 +1,23 @@
 ﻿using DTO.Models;
-using Ultilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DAO.IFactory;
 using AutoMapper;
 using DTO.ApiObjects;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAO.Factory
 {
     public class EmployeesDAO: IEmployeesDAO
     {
+        public IMapper mapper;
         private QLNVEntities db = new QLNVEntities();
 
         public IEnumerable<ApiEmployee> GetAll(string filter = null, string sort = "CatID DESC")
         {
             var sqlStr = "Select * from Employees" + (filter != null ? " where " + filter + " ORDER BY " + sort : " ORDER BY " + sort);
 
-            var employees = db.Employees.SqlQuery(sqlStr).ToList();
+            var employees = db.Employees.FromSqlRaw(sqlStr).ToList();
 
-            return Mapper.Map<IEnumerable<Employee>, IEnumerable<ApiEmployee>>(employees);
+            return mapper.Map<IEnumerable<Employee>, IEnumerable<ApiEmployee>>(employees);
         }
 
         public IEnumerable<ApiEmployee> Paged(string keyword = null, string filter = null, string sort = "CatId DESC", int page = 1, int pageSize = 6)
@@ -36,12 +32,12 @@ namespace DAO.Factory
 
         public ApiEmployee GetSingle(int? id)
         {
-            return Mapper.Map<Employee, ApiEmployee>(db.Employees.Where(c => c.Id == id).FirstOrDefault());
+            return mapper.Map<Employee, ApiEmployee>(db.Employees.Where(c => c.Id == id).FirstOrDefault());
         }
 
         public ApiEmployee Add(ApiEmployee employee)
         {
-            db.Employees.Add(Mapper.Map<ApiEmployee, Employee>(employee));
+            db.Employees.Add(mapper.Map<ApiEmployee, Employee>(employee));
             employee.Id = db.SaveChanges();
 
             return employee;
@@ -53,8 +49,8 @@ namespace DAO.Factory
             if (employeeInDB != null)
             {
                 apiEmployee.Id = employeeInDB.Id;
-                employeeInDB = Mapper.Map<ApiEmployee, Employee>(apiEmployee);
-                db.Entry(employeeInDB).State = System.Data.EntityState.Modified;
+                employeeInDB = mapper.Map<ApiEmployee, Employee>(apiEmployee);
+                db.Entry(employeeInDB).State = EntityState.Modified;
                 db.SaveChanges();
             }
 
@@ -74,12 +70,12 @@ namespace DAO.Factory
                     foreach (var emp in employees)
                     {
                         db.Employees.Remove(emp);
-                        db.Entry(emp).State = System.Data.EntityState.Deleted;
+                        db.Entry(emp).State = EntityState.Deleted;
                     }
                 }
 
                 isDelete = db.Employees.Remove(employeeInDB) != null ? true : false;
-                db.Entry(employeeInDB).State = System.Data.EntityState.Deleted;
+                db.Entry(employeeInDB).State = EntityState.Deleted;
 
                 db.SaveChanges();
             }
