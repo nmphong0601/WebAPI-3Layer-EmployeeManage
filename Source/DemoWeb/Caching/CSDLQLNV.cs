@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Net.Http;
+﻿using System.Configuration;
 using System.Net.Http.Headers;
 using System.Runtime.Caching;
 using DemoWeb.Models;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
@@ -13,9 +9,26 @@ namespace DemoWeb.Caching
 {
     public class CSDLQLNV
     {
+        private readonly IConfiguration config;
         private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(typeof(CSDLQLNV));
-        static string serverUrl = System.Configuration.ConfigurationManager.AppSettings["QLNVServerUrl"];
+        static string serverUrl = DBConnection.Configuration.GetSection("QLNVServerUrl").Value;
         static string accessToken = string.Empty;
+
+        public static class DBConnection
+        {
+            private static IConfiguration config;
+            public static IConfiguration Configuration
+            {
+                get
+                {
+                    var builder = new ConfigurationBuilder()
+                        .SetBasePath(Directory.GetCurrentDirectory())
+                        .AddJsonFile("appsettings.json");
+                    config = builder.Build();
+                    return config;
+                }
+            }
+        }
 
         #region cache management
 
@@ -59,18 +72,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/managers?filter=" + filter + "&sort=" + sort;
+                var endpointString = serverUrl + "api/v1/managers?filter=" + filter + "&sort=" + sort;
                 var managers = Task.Run(() => GetNullCheckAsync<IEnumerable<Manager>>(endpointString)).Result;
 
                 return managers;
             }
             catch (BusinessLayerException ex)
             {
-                throw new BusinessLayerException(500, "#1001002 Không lấy được dữ liệu managers.");
+                throw new BusinessLayerException(500, "#1001002 Could not find manager data.");
             }
             catch (Exception ex)
             {
-                throw new BusinessLayerException(500, "#1001003 Không lấy được dữ liệu managers.");
+                throw new BusinessLayerException(500, "#1001003 Could not find manager data.");
             }
         }
 
@@ -78,18 +91,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/managers/paging?keywork="+ keyword + "&filter=" + filter + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
+                var endpointString = serverUrl + "api/v1/managers/paging?keywork="+ keyword + "&filter=" + filter + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
                 var managers = Task.Run(() => GetNullCheckAsync<Dictionary<string, object>>(endpointString)).Result;
 
                 return managers;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không lấy được dữ liệu managers.");
+                throw new BusinessLayerException(500, "#1001002 Could not find manager data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không lấy được dữ liệu managers.");
+                throw new BusinessLayerException(500, "#1001003 Could not find manager data.");
             }
         }
 
@@ -97,18 +110,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/managers/" + id;
+                var endpointString = serverUrl + "api/v1/managers/" + id;
                 var manager = Task.Run(() => GetNullCheckAsync<Manager>(endpointString)).Result;
 
                 return manager;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không lấy được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001002 Could not find manager data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không lấy được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001003 Could not find manager data.");
             }
         }
 
@@ -116,18 +129,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/managers";
+                var endpointString = serverUrl + "api/v1/managers";
                 var managerInsert = Task.Run(() => PostAsync<Manager>(endpointString, manager)).Result;
 
                 return managerInsert;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không thêm được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001002 Could not create manager.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không thêm được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001003 Could not create manager.");
             }
         }
 
@@ -135,18 +148,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/managers";
+                var endpointString = serverUrl + "api/v1/managers";
                 var managerUpdate = Task.Run(() => PutAsync<Manager>(endpointString, manager)).Result;
 
                 return managerUpdate;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không cập nhật được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001002 Could not update manager data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không cập nhật được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001003 Could not update manager data.");
             }
         }
 
@@ -154,18 +167,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/managers/" + id;
+                var endpointString = serverUrl + "api/v1/managers/" + id;
                 var managerDelete = Task.Run(() => PutAsync<Boolean>(endpointString, null)).Result;
 
                 return managerDelete;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không xóa được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001002 Could not delete manager data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không xóa được dữ liệu manager.");
+                throw new BusinessLayerException(500, "#1001003 Could not delete manager data.");
             }
         }
 
@@ -177,18 +190,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/employees?filter=" + filter + "&sort=" + sort;
+                var endpointString = serverUrl + "api/v1/employees?filter=" + filter + "&sort=" + sort;
                 var employees = Task.Run(() => GetNullCheckAsync<IEnumerable<Employee>>(endpointString)).Result;
 
                 return employees;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không lấy được dữ liệu employees.");
+                throw new BusinessLayerException(500, "#1001002 Could not find employee data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không lấy được dữ liệu employees.");
+                throw new BusinessLayerException(500, "#1001003 Could not find employee data.");
             }
         }
 
@@ -196,18 +209,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/employees?keywork="+ keyword + "&filter=" + filter + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
+                var endpointString = serverUrl + "api/v1/employees?keywork="+ keyword + "&filter=" + filter + "&sort=" + sort + "&page=" + page + "&pageSize=" + pageSize;
                 var employees = Task.Run(() => GetNullCheckAsync<Dictionary<string, object>>(endpointString)).Result;
 
                 return employees;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không lấy được dữ liệu employees.");
+                throw new BusinessLayerException(500, "#1001002 Could not find employee data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không lấy được dữ liệu employees.");
+                throw new BusinessLayerException(500, "#1001003 Could not find employee data.");
             }
         }
 
@@ -215,18 +228,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/employees/" + id;
+                var endpointString = serverUrl + "api/v1/employees/" + id;
                 var employee = Task.Run(() => GetNullCheckAsync<Employee>(endpointString)).Result;
 
                 return employee;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không lấy được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001002 Could not find employee data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không lấy được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001003 Could not find employee data.");
             }
         }
 
@@ -234,18 +247,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/employees";
+                var endpointString = serverUrl + "api/v1/employees";
                 var employeeInsert = Task.Run(() => PostAsync<Employee>(endpointString, employee)).Result;
 
                 return employeeInsert;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không thêm được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001002 Could not create employee.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không thêm được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001003 Could not create employee.");
             }
         }
 
@@ -253,18 +266,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/employees";
+                var endpointString = serverUrl + "api/v1/employees";
                 var employeeUpdate = Task.Run(() => PutAsync<Employee>(endpointString, employee)).Result;
 
                 return employeeUpdate;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không cập nhật được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001002 Could not update employee data.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không cập nhật được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001003 Could not update employee data.");
             }
         }
 
@@ -272,18 +285,18 @@ namespace DemoWeb.Caching
         {
             try
             {
-                var endpointString = serverUrl + "api/employees/" + id;
+                var endpointString = serverUrl + "api/v1/employees/" + id;
                 var employeeDelete = Task.Run(() => DeleteAsync<Boolean>(endpointString)).Result;
 
                 return employeeDelete;
             }
             catch (BusinessLayerException)
             {
-                throw new BusinessLayerException(500, "#1001002 Không xóa được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001002 Could not delete employee.");
             }
             catch (Exception)
             {
-                throw new BusinessLayerException(500, "#1001003 Không xóa được dữ liệu employee.");
+                throw new BusinessLayerException(500, "#1001003 Could not delete employee.");
             }
         }
 
@@ -324,11 +337,11 @@ namespace DemoWeb.Caching
                     //client.DefaultRequestHeaders.Clear();
                     //client.DefaultRequestHeaders.Add("Authorization", "Bearer " + accessToken);
 
-                    //var response = (await client.GetAsync(endpoint)) ?? throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu.");
+                    //var response = (await client.GetAsync(endpoint)) ?? throw new BusinessLayerException(errorDescription: "Could not find data.");
                     var response = await client.GetAsync(endpoint);
                     if (!response.IsSuccessStatusCode)
                     {
-                        throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu.");
+                        throw new BusinessLayerException(errorDescription: "Could not find data.");
                     }
 
                     if (response.IsSuccessStatusCode)
@@ -339,27 +352,27 @@ namespace DemoWeb.Caching
 
                         resultCache = JsonConvert.DeserializeObject<T>(responseString);
                         if (((dynamic)resultCache).Id == null)
-                            throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu.");
+                            throw new BusinessLayerException(errorDescription: "Could not find data.");
                         Add(endpoint, resultCache, DateTime.Now.AddDays(days));
                     }
                     else
                     {
                         Log.Info($"====={nameof(GetCachedNullCheckAsync)} response:{JsonConvert.SerializeObject(response)}=====client:{JsonConvert.SerializeObject(client)}====accessToken:{accessToken}===Endpoint:{endpoint}");
-                        throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu");
+                        throw new BusinessLayerException(errorDescription: "Could not find data");
                     }
 
-                    Log.Info($"====={nameof(GetCachedNullCheckAsync)} Khonglaytucache:Endpoint:{endpoint}");
+                    Log.Info($"====={nameof(GetCachedNullCheckAsync)} CouldNotFindFromCache:Endpoint:{endpoint}");
                 }
                 else
                 {
-                    Log.Info($"====={nameof(GetCachedNullCheckAsync)} Laytucache:{endpoint}");
+                    Log.Info($"====={nameof(GetCachedNullCheckAsync)} FindFromCache:{endpoint}");
                 }
 
                 return (T)resultCache;
             }
             catch (BusinessLayerException ex)
             {
-                Log.Debug($"====={nameof(GetCachedNullCheckAsync)} BusinessLayerException: Endpoint:{endpoint}=====ex:{ ex.ToString()}");
+                Log.Debug($"====={nameof(GetCachedNullCheckAsync)} BusinessLayerException:Endpoint:{endpoint}=====ex:{ ex.ToString()}");
                 throw ex;
             }
             catch (Exception ex)
@@ -414,21 +427,21 @@ namespace DemoWeb.Caching
                     else
                     {
                         Log.Info($"====={nameof(GetCachedAsync)} response:{JsonConvert.SerializeObject(response)}=====client:{JsonConvert.SerializeObject(client)}====accessToken:{accessToken}===Endpoint:{endpoint}");
-                        throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu");
+                        throw new BusinessLayerException(errorDescription: "Could not find data");
                     }
 
-                    Log.Info($"====={nameof(GetCachedAsync)} Khonglaytucache:Endpoint:{endpoint}");
+                    Log.Info($"====={nameof(GetCachedAsync)} CouldNotFindFromCache:Endpoint:{endpoint}");
                 }
                 else
                 {
-                    Log.Info($"====={nameof(GetCachedAsync)} Laytucache:{endpoint}");
+                    Log.Info($"====={nameof(GetCachedAsync)} FindFromCache:{endpoint}");
                 }
 
                 return (T)resultCache;
             }
             catch (BusinessLayerException ex)
             {
-                Log.Debug($"====={nameof(GetCachedAsync)} BusinessLayerException: Endpoint:{endpoint}=====ex:{ ex.ToString()}");
+                Log.Debug($"====={nameof(GetCachedAsync)} BusinessLayerException:Endpoint:{endpoint}=====ex:{ ex.ToString()}");
                 throw ex;
             }
             catch (Exception ex)
@@ -462,12 +475,12 @@ namespace DemoWeb.Caching
                 //client.DefaultRequestHeaders.Clear();
                 //client.DefaultRequestHeaders.Add("Authorization", "Bearer " + accessToken);
 
-                //var response = await client.GetAsync(endpoint) ?? throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu.");
+                //var response = await client.GetAsync(endpoint) ?? throw new BusinessLayerException(errorDescription: "Could not find data.");
 
                 var response = await client.GetAsync(endpoint);
                 if (!response.IsSuccessStatusCode)
                 {
-                    throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu.");
+                    throw new BusinessLayerException(errorDescription: "Could not find data.");
                 }
 
                 response.EnsureSuccessStatusCode();
@@ -483,12 +496,12 @@ namespace DemoWeb.Caching
                 else
                 {
                     Log.Info($"====={nameof(GetNullCheckAsync)} response:{JsonConvert.SerializeObject(response)}=====client:{JsonConvert.SerializeObject(client)}====accessToken:{accessToken}===Endpoint:{endpoint}");
-                    throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu");
+                    throw new BusinessLayerException(errorDescription: "Could not find data");
                 }
             }
             catch (BusinessLayerException ex)
             {
-                Log.Debug($"====={nameof(GetNullCheckAsync)} BusinessLayerException: Endpoint:{endpoint}=====ex:{ex.ToString()}");
+                Log.Debug($"====={nameof(GetNullCheckAsync)} BusinessLayerException:Endpoint:{endpoint}=====ex:{ex.ToString()}");
                 throw ex;
             }
             catch (Exception ex)
@@ -536,12 +549,12 @@ namespace DemoWeb.Caching
                 else
                 {
                     Log.Info($"====={nameof(GetAsync)} response:{JsonConvert.SerializeObject(response)}=====client:{JsonConvert.SerializeObject(client)}====accessToken:{accessToken}===Endpoint:{endpoint}");
-                    throw new BusinessLayerException(errorDescription: "Không lấy được dữ liệu");
+                    throw new BusinessLayerException(errorDescription: "Could not find data");
                 }
             }
             catch (BusinessLayerException ex)
             {
-                Log.Debug($"====={nameof(GetAsync)} BusinessLayerException: Endpoint:{endpoint}=====ex:{ex.ToString()}");
+                Log.Debug($"====={nameof(GetAsync)} BusinessLayerException:Endpoint:{endpoint}=====ex:{ex.ToString()}");
                 throw ex;
             }
             catch (Exception ex)

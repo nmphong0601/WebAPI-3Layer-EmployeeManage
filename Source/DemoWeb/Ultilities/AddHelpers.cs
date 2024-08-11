@@ -1,22 +1,16 @@
-﻿using DemoWeb.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
 namespace DemoWeb.Ultilities
 {
     public static class AddHelpers
     {
-        public static MvcHtmlString LessString(this HtmlHelper html,string str, int maxLength){
+        public static HtmlString LessString(this HtmlHelper html,string str, int maxLength){
             if (str.Length < maxLength)
             {
-                return new MvcHtmlString(str);
+                return new HtmlString(str);
             }
-            return new MvcHtmlString(
-                string.Format("{0}...",str.Substring(0,maxLength-3))
-                );
+            return new HtmlString(string.Format("{0}...",str.Substring(0,maxLength-3)));
 
         }
         public static string Price2String(this HtmlHelper html, decimal price)

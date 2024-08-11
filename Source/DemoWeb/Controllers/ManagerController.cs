@@ -1,11 +1,7 @@
-﻿using DemoWeb.Caching;
+﻿using Microsoft.AspNetCore.Mvc;
+using DemoWeb.Caching;
 using DemoWeb.Models;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+using DemoWeb.Ultilities;
 
 namespace DemoWeb.Controllers
 {
@@ -15,7 +11,7 @@ namespace DemoWeb.Controllers
         // GET: Managers
         public ActionResult Index()
         {
-            Session["Manangers"] = null;
+            HttpContext.Session.SetObject("Manangers", new List<Manager>());
             var l = CSDLQLNV.GetManagers().ToList();
             return View(l);
         }
@@ -51,12 +47,12 @@ namespace DemoWeb.Controllers
         // GET: ManageProduct/Add
         public ActionResult Add()
         {
-            if (Session["Manangers"] == null)
+            var managers = HttpContext.Session.GetObject<List<Manager>>("Manangers");
+            if (managers == null)
             {
-                Session["Manangers"] = new List<Manager>();
+                HttpContext.Session.SetObject("Manangers", new List<Manager>());
             }
-            var managers = Session["Manangers"] as List<Manager>;
-            if (managers.Count == 0)
+            if (managers?.Count == 0)
             {
                 managers.Add(new Manager());
             }
@@ -70,7 +66,7 @@ namespace DemoWeb.Controllers
             manager.Employees = new List<Employee>();
 
             managers.Add(manager);
-            Session["Manangers"] = managers;
+            HttpContext.Session.SetObject("Manangers", managers);
 
             return RedirectToAction("Add");
         }
@@ -80,7 +76,7 @@ namespace DemoWeb.Controllers
             var employee = new Employee();
 
             managers[managerId].Employees.Add(employee);
-            Session["Manangers"] = managers;
+            HttpContext.Session.SetObject("Manangers", managers);
 
             return RedirectToAction("Add");
         }
@@ -89,31 +85,31 @@ namespace DemoWeb.Controllers
         [HttpPost]
         public ActionResult Add(List<Manager> managers)
         {
-            Session["Message"] = null;
-            Session["Manangers"] = managers;
+            var message = "";
 
             if (managers != null && managers.Count >= 3)
             {
                 foreach (var manager in managers)
                 {
-                    if(manager.Employees != null && manager.Employees.Count >= 10)
+                    if (manager.Employees != null && manager.Employees.Count >= 10)
                     {
                         var managerInserted = CSDLQLNV.InsertManager(manager);
                     }
                     else
                     {
-                        Session["Message"] = "Need to create at least 30 employee for manager " + manager.FullName;
-                        return RedirectToAction("Add", "Manager");
+                        message = "Need to create at least 30 employee for manager " + manager.FullName;
                     }
                 }
             }
             else
             {
-                Session["Message"] = "Need to create at least 3 manager";
-                return RedirectToAction("Add", "Manager");
+                message = "Need to create at least 3 manager";
             }
-            
-            return RedirectToAction("Index");
+
+            HttpContext.Session.SetObject("Message", message);
+            HttpContext.Session.SetObject("Manangers", managers);
+
+            return RedirectToAction("Add", "Manager");
         }
 
 

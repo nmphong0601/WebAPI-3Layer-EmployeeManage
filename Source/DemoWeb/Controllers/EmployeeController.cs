@@ -1,11 +1,6 @@
-﻿using DemoWeb.Caching;
+﻿using Microsoft.AspNetCore.Mvc;
+using DemoWeb.Caching;
 using DemoWeb.Models;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 
 namespace DemoWeb.Controllers
 {

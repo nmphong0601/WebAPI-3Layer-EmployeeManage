@@ -1,10 +1,13 @@
 ﻿@using DemoWeb.Models
 @using DemoWeb.Ultilities
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
 
 @model IList<Manager>
 
 @{
     Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+    var message = HttpContextAccessor.HttpContext.Session.GetString("Message");
 }
 @*trang thêm sản phẩm ở phần Admin*@
 
@@ -64,11 +67,11 @@
 
 @*Nội dung*@
 <div class="row">
-    @if (Session["Message"] != null)
+    @if (message != null)
     {
         <div class="col-md-8 col-sm-12 center-block" style="float:none; color: red;">
             <div class="form-group">
-                @Session["Message"]
+                @message
             </div>
         </div>
     }

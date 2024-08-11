@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace DemoWeb.Ultilities
 {
     //dùng để phân quyền
-    public class AuthActionFilter : FilterAttribute, IActionFilter
+    public class AuthActionFilter : ActionFilterAttribute, IActionFilter
     {
         public int RequiredPermission { get; set; }
         public void OnActionExecuted(ActionExecutedContext filterContext)
